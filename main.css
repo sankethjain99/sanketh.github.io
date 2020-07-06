@@ -21,10 +21,10 @@ body, html {
 
   #mySidenav a {
     position: fixed;
-    left: -60px;
+    left: -78px;
     transition: 0.3s;
-    padding: 15px;
-    width: 100px;
+    padding: 10px;
+    width: 120px;
     text-decoration: none;
     font-size: 20px;
     color: white;
@@ -35,12 +35,12 @@ body, html {
     left: 0;
   }
   
-  #about {
+  #Home {
     top: 20px;
     background-color: #4CAF50;
   }
   
-  #blog {
+  #About {
     top: 80px;
     background-color: #2196F3;
   }

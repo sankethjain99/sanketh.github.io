@@ -19,14 +19,14 @@
     </head>
     <body>
         <div id="mySidenav" class="sidenav">
-            <a href="#" id="Home">Home&nbsp; &nbsp; <i class="fa fa-home"></i></a>
-            <a href="#" id="About">About &nbsp; &nbsp;<i class="fa fa-address-card"></i></a>
-            <a href="#" id="projects">Projects <i class="fa fa-tasks"></i></a>
-            <a href="#" id="contact">Contact <i class="fa fa-phone"></i></a>
+            <a href="#home" id="Home">Home&nbsp; &nbsp; <i class="fa fa-home"></i></a>
+            <a href="#about" id="About">About &nbsp; &nbsp;<i class="fa fa-address-card"></i></a>
+            <a href="#project" id="projects">Projects <i class="fa fa-tasks"></i></a>
+            <a href="#contactme" id="contact">Contact <i class="fa fa-phone"></i></a>
           </div>
 
         <div class="bg container-fluid">
-            <div class="a">
+            <div class="a" id="home">
             <h1 >
                 <a style = "color: white;"href="" class="typewrite" data-period="2000" data-type='[ "Hi, Im Sanketh.", "I am a Devloper.", "I Love Trekking.", "I Love to Develop." ]'>
                   <span class="wrap"></span>
@@ -35,12 +35,12 @@
             </div>
             
         </div>
-        <div class="container-fluid" style="margin-top: 30px; ">
+        <div class="container-fluid" style="margin-top: 30px;" id="about">
             <h6 style="font-size: 40px; text-align: center; padding-bottom: 30px;" > <strong>ABOUT ME</strong></h6>
             <div class="span3 well">
                 <center>
-                <a  href="#aboutModal" data-toggle="modal" data-target="#myModal"><img style="border-radius: 30%;" src="d.jpeg" name="aboutme" width="135px" height="240px" ></a>
-                <h3>Sanketh S Jain</h3>
+                <a  href="#aboutModal" data-toggle="modal" data-target="#myModal"><img " src="12.jpg" name="aboutme" width="135px" height="240px" ></a>
+                <h3 class="mt-3">Sanketh S Jain</h3>
                 <em>Click on my face for more</em>
                 </center>
             </div>
@@ -66,7 +66,7 @@
                             <hr>
                             <center>
                             <p class="text-left"><strong>Bio: </strong><br>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus.</p>
+                              Hard-working Information Science and Engineering major (7.03 CGPA) currently attending BMS INSTITUTE OF TECHNOLOGY. Aiming to leverage proven communication, creative thinking and leadership skills to successfully fill the Software Engineer role at your company. Frequently praised as result-oriented by my peers, I can be relied upon to help your company achieve its goals.</p>
                             <br>
                             </center>
                         </div>
@@ -97,7 +97,7 @@
             </div>
           </div>
 
-          <div class="container fluid">
+          <div class="container fluid" id="project">
             <h6 style="font-size: 40px; text-align: center; padding-bottom: 30px; margin-top: 20px;" > <strong>MY PROJECTS</strong></h6>
             <a href="https://github.com/sankethjain99"><img style="max-width: 350px; max-height: 350px; align-self: center;" class="img-responsive k" src="j.PNG"></a>
            
@@ -262,20 +262,20 @@
   <div class="jumbotron jumbotron-fluid" style="background-color: white;">
     <h1 style="text-align: center; background-color: white;" id="book">Contact Me</h1>
     
-    <div class="contact-form">
+    <div class="contact-form" id="contactme">
      
-        <form id="contact-form" method="POST" action="index.php" style="padding: 40px;">
+        <form id="contact-form"  style="padding: 40px;">
             <div class="row">
             <div class="col-sm-6">
-                <input type="text" name="name" class="form-control lg-4" placeholder="Please Enter Your Name" required id="name">
+                <input type="text" name="name" class="form-control lg-4" placeholder="Please Enter Your Name"  id="name" required>
                 <br>
             </div>
            <div class="col-sm-6">
-            <input type="text" name="email" class="form-control" placeholder="Please Enter Your Email" required id="email">
+            <input type="text" name="email" class="form-control" placeholder="Please Enter Your Email"  id="email" required>
             <br>
         </div>
     </div>
-            <textarea name="comment" class="form-control mt-4" placeholder="Comment" rows="3" id="comment"></textarea>
+            <textarea name="comment" class="form-control mt-4" placeholder="Comment" rows="3" id="comment" ></textarea>
           
             <div class="mb-5 mt-5 text-center">
               <div class="alert">Your message  has been registered</div>
@@ -285,6 +285,7 @@
         </form>
         
     </div>
+  
 
 
 </div>
@@ -294,29 +295,29 @@
       <div class="row">
         <div class="col-sm-12 col-md-6">
           <h6 style="text-align: center;">Links</h6>
-          <div class="col-md-6 col-sm-6 col-xs-12">
-            <ul class="social-icons" style="text-align: center;">
-              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+          
+            <ul class="social-icons mt-3" style="text-align: center;">
+              <li><a class="Github" href="https://github.com/sankethjain99"><i class="fa fa-github"></i></a></li>
+              <li><a class="LinkedIn" href="https://www.linkedin.com/in/sanketh-jain-1aa6b614b/"><i class="fa fa-linkedin"></i></a></li>
+              <li><a class="Instagram" href="https://www.instagram.com/_sankethjain/"><i class="fa fa-instagram"></i></a></li>
+              <li><a class="linkedin" href="mailto: jsanketh1799@gmail.com"><i class="fa fa-envelope"></i></a></li>   
             </ul>
-          </div>
+          
         </div>
 
        
-        <div class="col-xs-6 col-md-3">
+        <div class="col-xs-6 col-md-6">
           <h6 style="text-align: center;">Quick Links</h6>
           <ul class="footer-links" style="text-align: center;">
-            <li><a href="">About Me</a></li>
-            <li><a href="">Contact Me</a></li>
-            <li><a href="">My Projects</a></li>
-            <li><a href="">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contactme">Contact Me</a></li>
+            <li><a href="#project">My Projects</a></li>
+            <li><a href="#home">Home</a></li>
             
           </ul>
         </div>
       </div>
-      <hr>
+      
     </div>
    
 </footer>
@@ -324,14 +325,9 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
-
-        <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-firestore.js"></script>
-
-        <!-- TODO: Add SDKs for Firebase products that you want to use
-             https://firebase.google.com/docs/web/setup#available-libraries -->
-        <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
-          
+        <script src="https://www.gstatic.com/firebasejs/7.17.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.17.0/firebase-analytics.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.17.0/firebase-database.js"></script>
 
         <script src="index.js"></script>
         <script src="main.js"></script>

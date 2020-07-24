@@ -1,6 +1,3 @@
-
-
-
 var TxtType = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
@@ -10,8 +7,6 @@ var TxtType = function(el, toRotate, period) {
     this.tick();
     this.isDeleting = false;
 };
-
-
 
 TxtType.prototype.tick = function() {
     var i = this.loopNum % this.toRotate.length;
@@ -59,7 +54,5 @@ window.onload = function() {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
     document.body.appendChild(css);
 };
-
-
 
 
